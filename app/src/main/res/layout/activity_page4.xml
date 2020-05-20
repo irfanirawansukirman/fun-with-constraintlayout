@@ -1,9 +1,212 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".page4.Page4Activity">
+    android:fillViewport="true">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgPage4Header"
+            android:layout_width="match_parent"
+            android:layout_height="256dp"
+            android:src="@color/colorPrimary"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtPage4Name"
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center_vertical"
+            android:text="Hahahahahahahahahahahahahahahahahahhahahahahahsdfsdfsdfsdfsdfsdf"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/cbPage4Name"
+            app:layout_constraintTop_toBottomOf="@id/imgPage4Header" />
+
+        <CheckBox
+            android:id="@+id/cbPage4Name"
+            android:layout_width="wrap_content"
+            android:layout_height="?actionBarSize"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imgPage4Header" />
+
+        <TextView
+            android:id="@+id/txtPage4Date"
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center_vertical"
+            android:text="Hahahahahahahahahahahahahahahahahahhahahahahahsdfsdfsdfsdfsdfsdf"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/cbPage4Date"
+            app:layout_constraintTop_toBottomOf="@id/txtPage4Name" />
+
+        <CheckBox
+            android:id="@+id/cbPage4Date"
+            android:layout_width="wrap_content"
+            android:layout_height="?actionBarSize"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cbPage4Name" />
+
+        <TextView
+            android:id="@+id/txtPage4Month"
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center_vertical"
+            android:text="Hahahahahahahahahahahahahahahahahahhahahahahahsdfsdfsdfsdfsdfsdf"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/cbPage4Month"
+            app:layout_constraintTop_toBottomOf="@id/txtPage4Date" />
+
+        <CheckBox
+            android:id="@+id/cbPage4Month"
+            android:layout_width="wrap_content"
+            android:layout_height="?actionBarSize"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cbPage4Date" />
+
+        <TextView
+            android:id="@+id/txtPage4Year"
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center_vertical"
+            android:text="Hahahahahahahahahahahahahahahahahahhahahahahahsdfsdfsdfsdfsdfsdf"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/cbPage4Year"
+            app:layout_constraintTop_toBottomOf="@id/txtPage4Month" />
+
+        <CheckBox
+            android:id="@+id/cbPage4Year"
+            android:layout_width="wrap_content"
+            android:layout_height="?actionBarSize"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cbPage4Month" />
+
+        <TextView
+            android:id="@+id/txtPage4Date1"
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center_vertical"
+            android:text="Hahahahahahahahahahahahahahahahahahhahahahahahsdfsdfsdfsdfsdfsdf"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/cbPage4Date"
+            app:layout_constraintTop_toBottomOf="@id/txtPage4Year" />
+
+        <CheckBox
+            android:id="@+id/cbPage4Date1"
+            android:layout_width="wrap_content"
+            android:layout_height="?actionBarSize"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cbPage4Year" />
+
+        <TextView
+            android:id="@+id/txtPage4Date2"
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center_vertical"
+            android:text="Hahahahahahahahahahahahahahahahahahhahahahahahsdfsdfsdfsdfsdfsdf"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/cbPage4Date2"
+            app:layout_constraintTop_toBottomOf="@id/txtPage4Date1" />
+
+        <CheckBox
+            android:id="@+id/cbPage4Date2"
+            android:layout_width="wrap_content"
+            android:layout_height="?actionBarSize"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cbPage4Date1" />
+
+        <TextView
+            android:id="@+id/txtPage4Date3"
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center_vertical"
+            android:text="Hahahahahahahahahahahahahahahahahahhahahahahahsdfsdfsdfsdfsdfsdf"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/cbPage4Date3"
+            app:layout_constraintTop_toBottomOf="@id/txtPage4Date2" />
+
+        <CheckBox
+            android:id="@+id/cbPage4Date3"
+            android:layout_width="wrap_content"
+            android:layout_height="?actionBarSize"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cbPage4Date2" />
+
+        <TextView
+            android:id="@+id/txtPage4Date4"
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center_vertical"
+            android:text="Hahahahahahahahahahahahahahahahahahhahahahahahsdfsdfsdfsdfsdfsdf"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/cbPage4Date4"
+            app:layout_constraintTop_toBottomOf="@id/txtPage4Date3" />
+
+        <CheckBox
+            android:id="@+id/cbPage4Date4"
+            android:layout_width="wrap_content"
+            android:layout_height="?actionBarSize"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cbPage4Date3" />
+
+        <TextView
+            android:id="@+id/txtPage4Date5"
+            android:layout_width="0dp"
+            android:layout_height="?actionBarSize"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:gravity="center_vertical"
+            android:text="Hahahahahahahahahahahahahahahahahahhahahahahahsdfsdfsdfsdfsdfsdf"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/cbPage4Date5"
+            app:layout_constraintTop_toBottomOf="@id/txtPage4Date4" />
+
+        <CheckBox
+            android:id="@+id/cbPage4Date5"
+            android:layout_width="wrap_content"
+            android:layout_height="?actionBarSize"
+            android:layout_marginRight="8dp"
+            android:gravity="center"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cbPage4Date4" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

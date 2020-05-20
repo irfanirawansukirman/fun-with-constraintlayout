@@ -10,4 +10,5 @@ class Page3Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_page3)
     }
+
 }
