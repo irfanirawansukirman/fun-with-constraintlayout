@@ -1,35 +1,11 @@
-<img src="/previews/img_home.jpeg" align="right" width="32%"/>
+![](https://github.com/irfanirawansukirman/fun-with-constraintlayout/blob/master/previews/img_home.jpeg?raw=true)
+![](https://github.com/irfanirawansukirman/fun-with-constraintlayout/blob/master/previews/img_page1.jpeg?raw=true)
+![](https://github.com/irfanirawansukirman/fun-with-constraintlayout/blob/master/previews/img_page2.jpeg?raw=true)
+![](https://github.com/irfanirawansukirman/fun-with-constraintlayout/blob/master/previews/img_page3.jpeg?raw=true)
 
-### Tech stack & Open-source libraries
+![](https://github.com/irfanirawansukirman/fun-with-constraintlayout/blob/master/previews/img_page4.jpeg?raw=true)
+![](https://github.com/irfanirawansukirman/fun-with-constraintlayout/blob/master/previews/img_page5.jpeg?raw=true)
+![](https://github.com/irfanirawansukirman/fun-with-constraintlayout/blob/master/previews/img_page6.jpeg?raw=true)
+![](https://github.com/irfanirawansukirman/fun-with-constraintlayout/blob/master/previews/img_page7.jpeg?raw=true)
 
-<img src="/previews/img_page1.jpeg" align="right" width="32%"/>
-
-### Tech stack & Open-source libraries
-
-<img src="/previews/img_page2.jpeg" align="right" width="32%"/>
-
-### Tech stack & Open-source libraries
-
-<img src="/previews/img_page3.jpeg" align="right" width="32%"/>
-
-### Tech stack & Open-source libraries
-
-<img src="/previews/img_page4.jpeg" align="right" width="32%"/>
-
-### Tech stack & Open-source libraries
-
-<img src="/previews/img_page5.jpeg" align="right" width="32%"/>
-
-### Tech stack & Open-source libraries
-
-<img src="/previews/img_page6.jpeg" align="right" width="32%"/>
-
-### Tech stack & Open-source libraries
-
-<img src="/previews/img_page7.jpeg" align="right" width="32%"/>
-
-### Tech stack & Open-source libraries
-
-<img src="/previews/img_page8.jpeg" align="right" width="32%"/>
-
-### Tech stack & Open-source libraries
+![](https://github.com/irfanirawansukirman/fun-with-constraintlayout/blob/master/previews/img_page8.jpeg?raw=true)
